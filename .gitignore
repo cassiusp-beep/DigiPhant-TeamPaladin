@@ -1,0 +1,63 @@
+# Unity (based on github/gitignore Unity.gitignore; unanchored so it matches the nested project)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# IDE and generated project files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Build output
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+sysinfo.txt
+
+# Unity Version Control (Plastic)
+.plastic/
+ignore.conf
+
+# Python
+.venv/
+__pycache__/
+
+# macOS
+.DS_Store
+
+# DigiPhant shared starter (see DigiPhantStarter/STUDENT_GIT.md).
+# Large supplied assets are restored from the instructor repo, not committed here.
+Paladin_Digiphant/Paladin_Digiphant/DigiPhantStarter/
+Paladin_Digiphant/Paladin_Digiphant/Assets/Elephant/
+Paladin_Digiphant/Paladin_Digiphant/Assets/Elephant.meta
+
+# Our tracker copy (Paladin_Digiphant/Paladin_Digiphant/Tracking): code is tracked;
+# the pose model is copied in by setup.sh and .venv/ is ignored above.
+Paladin_Digiphant/Paladin_Digiphant/Tracking/*.task
+
+# Written by the Unity Test Framework during player builds
+[Rr]esources/PerformanceTestRun*
